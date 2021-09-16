@@ -1,0 +1,22 @@
+body {
+	margin: 0;
+	background: radial-gradient(#e5e5e5, #ffffff, #e5e5e5);
+	font-family: 'Roboto', sans-serif !important;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+code {
+	font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+		monospace;
+}
+
+.full-screen {
+	width: 100% !important;
+}
+
+@media only screen and (min-width: 1380px) {
+	.container {
+		max-width: 1430px;
+	}
+}

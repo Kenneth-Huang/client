@@ -1,0 +1,25 @@
+.dropdown .dropdown-menu {
+	-webkit-transition: all 0.6s;
+	-moz-transition: all 0.6s;
+	-ms-transition: all 0.6s;
+	-o-transition: all 0.6s;
+	transition: all 0.6s;
+	max-height: 0;
+	display: block;
+	overflow: hidden;
+	opacity: 0;
+	text-align: center;
+}
+.dropdown:hover> .dropdown-menu {
+	max-height: 300px;
+	opacity: 1;
+}
+.nav-item >a, .nav-link{
+   font-size: 1rem !important;
+}
+.nav-item .ant-badge{
+	font-size: 1rem !important;
+}
+.nav li{
+   padding-right:5px;
+}

@@ -1,0 +1,4 @@
+.single-product-carousel .carousel .slide img {
+	height: 450px;
+	object-fit: cover;
+}
